@@ -7,12 +7,12 @@ int main()
 	char str[100];
 	int i,length;
 	
-	printf("Enter a string :- ");
+	printf("Enter a string : ");
 	fgets(str,sizeof(str),stdin);
 	
 	length = strlen(str);
 	
-	printf("The characters of the string reverse order are :- ");
+	printf("The characters of string reverse order are :- ");
 	for(i=length-1; i>=0; i--)
 	{
 		printf("\n%c", str[i]);

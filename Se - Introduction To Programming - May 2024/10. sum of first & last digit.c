@@ -20,7 +20,7 @@ int main()
 	
 	sum = firstdigit + lastdigit;
 	
-	printf("Sum of the firstdigit and lastdigit :- %d\n",sum);
+	printf("Sum of firstdigit and lastdigit : %d\n",sum);
 	
 	return 0;
 }

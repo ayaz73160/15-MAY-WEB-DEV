@@ -6,7 +6,7 @@ int main()
 {
 	char schname[200],abr[20];
 	int i,j=0;
-	printf("\nEnter the school name:- ");
+	printf("\nEnter school name: ");
 	gets(schname);
 	
 	int length = strlen(schname);
@@ -27,7 +27,7 @@ int main()
 		i++;
 	}
 	
-	printf("\n Original school name :- %s",schname);
-	printf("\n Abbriviated school name:- %s",abr);	
+	printf("\n Original school name : %s",schname);
+	printf("\n Abbriviated school name: %s",abr);	
 	return 0;
 }

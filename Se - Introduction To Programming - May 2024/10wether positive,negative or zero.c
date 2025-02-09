@@ -3,7 +3,7 @@
 int main()
 {
 	int wether;
-	printf("Enter Wether:- ");
+	printf("Enter Wether: ");
 	scanf("%d",&wether);
 	
 	if(wether>0)
@@ -16,7 +16,7 @@ int main()
 	}
 	else
 	{
-		printf("Both are same");
+		printf("Both same");
 	}
 	
 	return 0;

@@ -5,7 +5,7 @@ int main()
 {
 	int rev,n,rem = 0;
 	
-	printf("Enter the number:- ");
+	printf("Enter number:- ");
 	scanf("%d",&n);
 	int copy = n;
 	

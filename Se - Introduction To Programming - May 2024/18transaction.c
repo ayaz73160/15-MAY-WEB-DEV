@@ -4,7 +4,7 @@ int main()
 {
 	int monthno;
 	
-	printf("Enter the Month number:- ");
+	printf("Enter Month number: ");
 	scanf("%d",&monthno);
 	
 	switch(monthno)

@@ -11,11 +11,11 @@ int main()
 {
 	int total_sub,maths,physics,chemistry,total_maths_physics;
 	
-	printf("Enter the marks of a Maths:- ");
+	printf("Enter marks of a Maths:- ");
 	scanf("%d",&maths);
-	printf("Enter the marks of a physics:- ");
+	printf("Enter marks of a physics:- ");
 	scanf("%d",&physics);
-	printf("Enter the marks of a chemistry:- ");
+	printf("Enter marks of a chemistry:- ");
 	scanf("%d",&chemistry);
 	
 	total_sub = maths + physics + chemistry;

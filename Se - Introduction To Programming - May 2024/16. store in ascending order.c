@@ -7,7 +7,7 @@ int main()
 	
 	for(i=0;i<5;i++)
 	{
-		printf("Enter the number :- ");
+		printf("Enter number: ");
 		scanf("%d",&num[i]);
 	}
 	

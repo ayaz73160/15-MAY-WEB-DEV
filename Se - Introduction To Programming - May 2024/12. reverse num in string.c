@@ -20,17 +20,17 @@ int main()
 	int i;
 	
 
-	printf("Enter The Number of Employee :- ");
+	printf("Enter The Number of Employee: ");
 	scanf("%d",&emp.empno);
 		
-	printf("Enter The Name of Employee :- ");
+	printf("Enter The Name of Employee: ");
 	getchar();
 	fgets(emp.empname,sizeof(emp.empname),stdin);
 		
-	printf("Enter The Address :- ");
+	printf("Enter The Address: ");
 	fgets(emp.address,sizeof(emp.address),stdin);
 		
-	printf("Enter The age :- ");
+	printf("Enter The age: ");
 	scanf("%d",&emp.age);
 
 	

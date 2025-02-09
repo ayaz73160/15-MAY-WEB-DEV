@@ -7,7 +7,7 @@ int main()
     char line[150];
     int i,j;
     
-    printf("Enter a string: ");
+    printf("Enter string: ");
     fgets(line, sizeof(line), stdin);
 
     for (i = 0; line[i] != '\0'; i++) 

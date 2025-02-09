@@ -3,18 +3,18 @@
 #include<stdio.h>
 int main()
 {
-	int base,hight;
+	int base,height;
 	
-	printf("Enter Base of triangle:- ");
+	printf("Enter base of triangle:- ");
 	scanf("%d",&base);
 	
-	printf("Enter Hight of triangle:- ");
-	scanf("%d",&hight);
+	printf("Enter Height of triangle:- ");
+	scanf("%d",&height);
 	
 	float area,circumference;
 	int a=5,b=10,c=15;
 	
-	area = base*hight;
+	area = base*height;
 	circumference = a + b + c;
 	
 	printf("area of a triangle:- %f\n",area);

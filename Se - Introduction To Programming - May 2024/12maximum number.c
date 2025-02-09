@@ -4,13 +4,13 @@ int main()
 {
 	int max,n1,n2,n3;
 	
-	printf("Enter number one:- ");
+	printf("Enter number one: ");
 	scanf("%d",&n1);
 	
-	printf("Enter number two:- ");
+	printf("Enter number two: ");
 	scanf("%d",&n2);
 	
-	printf("Enter number Three:- ");
+	printf("Enter number Three: ");
 	scanf("%d",&n3);
 	
 	max = (n1 > n2) ? ((n1 > n3) ? n1 : n3) : ((n2 > n3) ? n2 : n3);

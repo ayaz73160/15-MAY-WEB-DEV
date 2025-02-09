@@ -17,7 +17,7 @@ int main()
 
     for (i=0;i<5;i++) 
 	{
-    	printf("\nEnter five numbers :- ");
+    	printf("\nEnter five numbers: ");
         scanf("%d",&numbers[i]);
     }
 

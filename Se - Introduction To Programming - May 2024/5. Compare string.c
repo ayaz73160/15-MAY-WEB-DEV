@@ -22,9 +22,9 @@ int main()
 	char str1[100],str2[100];
 	int result;
 	
-	printf("\nEnter the First string :- ");
+	printf("\nEnter First string : ");
 	gets(str1);
-	printf("\nEnter the Second string :- ");
+	printf("\nEnter Second string : ");
 	gets(str2);
 	
 	result = comparestring(str1,str2);
@@ -35,11 +35,11 @@ int main()
 	}
 	else if(result > 0)
 	{
-		printf("\nFirst String is Greater than the Second String.");
+		printf("\nFirst String is Greater than the Second.");
 	}
 	else
 	{
-		printf("\nFirst String is less than the Second String.");
+		printf("\nFirst String is less than the Second.");
 	}
 	
 	return 0;

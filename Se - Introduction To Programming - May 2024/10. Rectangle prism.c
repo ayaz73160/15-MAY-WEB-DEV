@@ -5,20 +5,20 @@ int main()
 {
 	int w,l,h;
 	
-	printf("Enter value of width:- ");
+	printf("Enter value of width: ");
 	scanf("%d",&w);
 	
-	printf("Enter value of length:- ");
+	printf("Enter value of length: ");
 	scanf("%d",&l);
 	
-	printf("Enter value of hight:- ");
+	printf("Enter value of hight: ");
 	scanf("%d",&h);
 	
 	int A;
 	
 	A = 2*((w*l)+(h*l)+(h*w));
 	
-	printf("area of rectangle prism:- %d",A);
+	printf("area of rectangle prism: %d",A);
 	
 	return 0;
 }

@@ -12,7 +12,7 @@ int main()
 {
 	float temp;
 	
-	printf("Enter temperature:- ");
+	printf("Enter temperature: ");
 	scanf("%f",&temp);
 	
 	if(temp < 0)

@@ -7,7 +7,7 @@
 int main() 
 {
     char str[1000];
-    printf("Enter a string: ");
+    printf("Enter string: ");
     fgets(str, sizeof(str), stdin);
 
     char word[100]; 

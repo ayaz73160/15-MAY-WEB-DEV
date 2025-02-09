@@ -7,7 +7,7 @@ int main()
 	char str[100],rev[100];
 	int i,flag=0,len;
 	
-	printf("Etner the number :- ");
+	printf("Etner number :- ");
 	gets(str);
 	
 	len = strlen(str);

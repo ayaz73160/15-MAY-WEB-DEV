@@ -9,7 +9,7 @@ int main()
 	int i,max = 0;
 	char maxchar;
 	
-	printf("\nEnter the string :- ");
+	printf("\nEnter string :- ");
 	gets(str);
 	
 	for(i=0;str[i]!='\0';i++)

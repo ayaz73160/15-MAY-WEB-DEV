@@ -7,7 +7,7 @@ int main()
 	char source[100], destination[100];
 	int i = 0;
 	
-	printf("Ente the source string :- ");
+	printf("Ente the source string: ");
 	gets(source);
 	
 	while (source[i] != '\0')
@@ -16,7 +16,7 @@ int main()
 		i++;
 	}
 	
-	printf("\nCopied String :- %s",destination);
+	printf("\nCopied String: %s",destination);
 	
 	return 0;
 }

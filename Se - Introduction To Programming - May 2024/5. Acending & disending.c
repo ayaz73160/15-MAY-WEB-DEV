@@ -23,7 +23,7 @@ int main()
     int arr1[100], arr2[100];
     int size1, size2, i;
 
-    printf("Enter size of first array: ");
+    printf("Enter the size of first array: ");
     scanf("%d", &size1);
     for (i = 0; i < size1; i++) 
 	{

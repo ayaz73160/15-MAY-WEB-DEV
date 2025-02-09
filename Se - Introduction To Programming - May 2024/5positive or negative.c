@@ -3,16 +3,16 @@
 int main()
 {
 	int num;
-	printf("Enter number:- ");
+	printf("Enter number: ");
 	scanf("%d",&num);
 	
 	if(num>0)
 	{
-		printf("This is positive number");
+		printf("This is a positive number");
 	}
 	else
 	{
-		printf("This is negative number");
+		printf("This is a negative number");
 	}
 	
 	return 0;

@@ -34,23 +34,23 @@ int main()
 {
 	int size1,size2,order,i;
 	
-	printf("\nEnter the size of first array :- ");
+	printf("\nEnter size of first array: ");
 	scanf("%d",&size1);
 	int arr1[size1];
 	
 	for(i=0;i<size1;i++)
 	{
-		printf("\nEnter the element in first array :- ");
+		printf("\nEnter element in first array: ");
 		scanf("%d",&arr1[i]);	
 	}	
 	
-	printf("\nEnter the size of second array :- ");
+	printf("\nEnter size of second array: ");
 	scanf("%d",&size2);
 	int arr2[size2];
 	
 	for(i=0;i<size2;i++)
 	{
-		printf("\nEnter the element in second array :- ");
+		printf("\nEnter element in second array: ");
 		scanf("%d",&arr2[i]);	
 	}
 	

@@ -5,10 +5,10 @@ int main()
 {
 	int i,j,k,a[100][100],b[100][100],sum[100][100],sub[100][100],mul[100][100],div[100][100],row,col,choice;
 
-	printf("Enter the row:- ");	
+	printf("Enter the row: ");	
 	scanf("%d",&row);
 
-	printf("Enter the col:- ");
+	printf("Enter the col: ");
 	scanf("%d",&col);
 
 	printf("\nEnter 1 is for addition:- ");
@@ -22,7 +22,7 @@ for(i=0;i<row;i++)
 {
 	for(j=0;j<col;j++)
 	{
-		printf("\nEnter the element in a[%d][%d]:- ",i,j);
+		printf("\nEnter element in a[%d][%d]:- ",i,j);
 		scanf("%d",&a[i][j]);
 	}
 }
@@ -31,7 +31,7 @@ for(i=0;i<row;i++)
 {
 	for(j=0;j<col;j++)
 	{
-		printf("\nEnter the element in b[%d][%d]:- ",i,j);
+		printf("\nEnter element in b[%d][%d]:- ",i,j);
 		scanf("%d",&b[i][j]);
 	}
 }

@@ -6,10 +6,10 @@ int main()
 	int length,width;
 	float area,Circumference;
 	
-	printf("Enter The Length of Rectangle :- ");
+	printf("Enter Length of Rectangle :- ");
 	scanf("%d",& length);
 	
-	printf("Enter The Width of Rectangle :- ");
+	printf("Enter Width of Rectangle :- ");
 	scanf("%d",& width);
 	
 	area = length * width;

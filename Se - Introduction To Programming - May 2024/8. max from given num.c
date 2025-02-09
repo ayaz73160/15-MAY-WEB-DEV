@@ -6,7 +6,7 @@ int main()
 {
 	int n,maxn,digit;
 	
-	printf("Enter the number :- ");
+	printf("Enter number :- ");
 	scanf("%d",&n);
 	
 	while(n!=0)

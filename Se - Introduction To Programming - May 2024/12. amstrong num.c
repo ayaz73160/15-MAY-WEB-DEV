@@ -7,7 +7,7 @@ int main()
 {
 	int num,rem,power,count=0,sum;
 	
-	printf("\n Enter the number :- ");
+	printf("\n Enter number: ");
 	scanf("%d",&num);
 	int copy1 = num;
 	int copy2 = num;

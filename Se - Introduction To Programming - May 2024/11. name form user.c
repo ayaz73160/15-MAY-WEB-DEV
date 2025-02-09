@@ -5,7 +5,7 @@ int main()
 {
 	int name[5][50],i;
 	
-	printf("\n Enter the name:- ");
+	printf("\n Enter name: ");
 	
 	for(i=1;i<5;i++)
 	{

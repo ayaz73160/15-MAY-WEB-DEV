@@ -5,9 +5,9 @@ int main()
 {
 	int n1,n2,i,j,fact=1;
 	
-	printf("\n Enter the number 1:- ");
+	printf("\n Enter number 1: ");
 	scanf("%d",&n1);
-	printf("\n Enter the number 2:- ");
+	printf("\n Enter number 2: ");
 	scanf("%d",&n2);
 	
 	for(i=n1;i<=n2;i++)
@@ -18,7 +18,7 @@ int main()
 		{
 			fact = fact * j;
 		}
-		printf("\n factorial of %d is %d",i,fact);
+		printf("\n Factorial of %d is %d",i,fact);
 	}
 	return 0;
 }

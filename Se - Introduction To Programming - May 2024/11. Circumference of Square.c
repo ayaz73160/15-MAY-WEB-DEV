@@ -6,7 +6,7 @@ int main()
 	float side,area;
 	float circumference;
 	
-	printf("Enter The Side of Square:- ");
+	printf("Enter Sides of Square: ");
 	scanf("%f",side);
 	
 	area = side*side;

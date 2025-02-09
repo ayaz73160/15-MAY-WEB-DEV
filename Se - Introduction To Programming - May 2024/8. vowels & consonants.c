@@ -6,7 +6,7 @@ int main()
 	char str[100];
 	int i=0,vowels=0,consonants=0;
 	
-	printf("Enter the string :- ");
+	printf("Enter string: ");
 	gets(str);
 	
 	while(str[i] != 0)

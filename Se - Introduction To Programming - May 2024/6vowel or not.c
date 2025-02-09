@@ -5,7 +5,7 @@ int main()
 	char c;
     int vowel;
 
-    printf("Enter an alphabet:- ");
+    printf("Enter an alphabet: ");
     scanf("%c", &c);
 
 

@@ -5,15 +5,15 @@ int main()
 {
 	char n[50],i;
 	int length;
-	printf("\n Enter the name :- ");
+	printf("\n Enter name: ");
 	gets(n);
-	printf("\n Original string :- %s",n);
+	printf("\n Original string: %s",n);
 	
 	for(i=0;n[i]!='\0';i++)
 	{
 		length++;
 	}
 	
-	printf("\n length of string is :- %d",length);
+	printf("\n length of string is: %d",length);
 	return 0;
 }

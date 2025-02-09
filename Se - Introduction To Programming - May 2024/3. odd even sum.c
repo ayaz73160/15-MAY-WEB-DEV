@@ -10,7 +10,7 @@ int main()
 {
 	int i,j,k=1,row;
 	
-	printf("Enter the rows:- ");
+	printf("Enter rows:- ");
 	scanf("%d",&row);
 	
 	for(i=1;i<=row;i++)

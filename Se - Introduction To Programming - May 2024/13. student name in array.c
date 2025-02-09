@@ -6,14 +6,14 @@ int main()
 	int i;
 	for(i=0;i<5;i++)
 	{
-		printf("Enter the student name :- ",i+1);
+		printf("Enter student name: ",i+1);
 		scanf("%s",name[i]);	
 	}
 	
 //	printf("\nThe name of student is :-");
 	for(i=0;i<5;i++)
 	{
-		printf("\nThe name of student is :-");
+		printf("\nThe name of student is: ");
 		printf("%s",name[i]);
 	}
 	

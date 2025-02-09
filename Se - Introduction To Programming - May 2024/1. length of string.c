@@ -1,4 +1,4 @@
-// 9. Write a program in C to find the maximum number of charcters in a string.
+// 9. Write a program in C to find the max number of charcters in a string.
 
 #include<stdio.h>
 #include<string.h>
@@ -9,7 +9,7 @@ int main()
 	int i,max = 0;
 	char maxchar;
 	
-	printf("\nEnter the string :- ");
+	printf("\nEnter the string : ");
 	gets(str);
 	
 	for(i=0;str[i]!='\0';i++)

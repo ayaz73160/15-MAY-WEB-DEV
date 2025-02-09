@@ -18,7 +18,7 @@ int main()
 {
 	int rows,j,i;
 	
-	printf("enter the number of rows:- ");
+	printf("enter number of rows: ");
 	scanf("%d",&rows);
 	
 	for(i=0;i<=rows;i++)

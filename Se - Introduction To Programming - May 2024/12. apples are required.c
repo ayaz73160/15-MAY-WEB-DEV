@@ -6,7 +6,7 @@ int main()
 {
 	int student,apple;
 	
-	printf("Enter the number of the Student:-");
+	printf("Enter number of Students: ");
 	scanf("%d",&student);
 	
 	apple = student * 5;

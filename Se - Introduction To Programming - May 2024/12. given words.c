@@ -19,7 +19,7 @@ int main()
     int count = 0;
     char *ptr;
 
-    printf("\nEnter a sentence: ");
+    printf("\nEnter sentence: ");
     fgets(str, sizeof(str), stdin);
     str[strcspn(str, "\n")] = '\0';  
 

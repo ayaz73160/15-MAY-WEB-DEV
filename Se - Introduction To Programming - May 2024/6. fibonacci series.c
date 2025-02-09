@@ -4,7 +4,7 @@ int main()
 {
 	int range,n1,n2,n3,i;
 	
-	printf("Enter the numbers :- ");
+	printf("Enter numbers : ");
 	scanf("%d",&range);
 	
 	printf("%d %d",n1,n2);

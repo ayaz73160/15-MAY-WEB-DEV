@@ -4,7 +4,7 @@ int main()
 {
 	int n;
 	
-	printf("Enter the number:- ");
+	printf("Enter number: ");
 	scanf("%d",&n);
 	
 	printf("Ascii value of %d is %d\n",n,n+'0');

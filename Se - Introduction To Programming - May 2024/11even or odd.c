@@ -4,7 +4,7 @@ int main()
 {
 	int ans,num,odd,even;
 	
-	printf("Enter the number:- ");
+	printf("Enter number: ");
 	scanf("%d",&num);
 	
 	ans=(num%2==0)?printf("even"):printf("odd");

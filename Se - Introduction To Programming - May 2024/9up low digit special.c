@@ -5,7 +5,7 @@
 int main()
 {
 	char c;
-	printf("Enter a value:- ");
+	printf("Enter any value: ");
 	scanf("%c",&c);
 	
 	if(c>='A' && c<='Z')

@@ -16,19 +16,19 @@ int main()
 {
 	int n,i;
 	
-	printf("\nEnter the number of element in array:- ");
+	printf("\nEnter the number of element in array: ");
 	scanf("%d",&n);
 	
 	int arr[n];
 	for(i=0;i<n;i++)
 	{
-		printf("\nEnter element :- ");
+		printf("\nEnter element : ");
 		scanf("%d",&arr[i]);
 	}
 	
 	int max = findmax(arr,n);
 	
-	printf("\nThe maximum number of array is :- %d",max);
+	printf("\nThe maximum number of array is : %d",max);
 	
 	return 0;
 }

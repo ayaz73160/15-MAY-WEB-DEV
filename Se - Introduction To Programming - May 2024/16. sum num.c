@@ -5,7 +5,7 @@ int main()
 {
 	int n,sum=0,i=1;
 	
-	printf("Enter the number :- 10 ");
+	printf("Enter the number: 10 ");
 	scanf("%d",&n);
 	
 	while(i(1)<=n(10))

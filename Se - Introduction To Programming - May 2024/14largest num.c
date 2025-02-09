@@ -4,11 +4,11 @@ int main()
 {
 	int a,b,c;
 	
-	printf("Enter A:- ");
+	printf("Enter A: ");
 	scanf("%d",&a);
-	printf("Enter B:- ");
+	printf("Enter B: ");
 	scanf("%d",&b);
-	printf("Enter C:- ");
+	printf("Enter C: ");
 	scanf("%d",&c);
 	
 	if(a > b && a > c)

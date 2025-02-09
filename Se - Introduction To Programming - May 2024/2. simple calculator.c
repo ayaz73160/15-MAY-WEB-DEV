@@ -5,9 +5,9 @@
 int main()
 {
 	int a,b,ans;
-	printf("Enter The Value of Number One:");
+	printf("Enter number One:");
 	scanf("%d",& a);
-	printf("Enter The Value of Number Two:");
+	printf("Enter number Two:");
 	scanf("%d",& b);
 	
 	

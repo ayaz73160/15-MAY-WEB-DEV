@@ -38,8 +38,8 @@ int main()
     printf("Decimal: %.2f\n", u.decimal);
     printf("Name: %s\n", u.name);
 
-    printf("\nSize of structure: %lu\n", sizeof(s));
-    printf("Size of union: %lu\n", sizeof(u));
+    printf("\nSize of the structure: %lu\n", sizeof(s));
+    printf("Size of the union: %lu\n", sizeof(u));
 
     return 0;
 }

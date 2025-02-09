@@ -16,19 +16,19 @@ int main()
 	char str[100],substr;
 	int start,length;
 	
-	printf("\nEnter the string :- ");
+	printf("\nEnter string: ");
 	fgets(str, sizeof(str), stdin);
 	str[strcspn(str, "\n")] = '\0';
 	
-	printf("\nEnter the starting index :- ");
+	printf("\nEnter the starting index: ");
 	scanf("%d",&start);
 	
-	printf("\nEnter the length of the substring :- ");
+	printf("\nEnter the length of the substring: ");
 	scanf("%d",&length);
 	
 	substring(str, substr, start, length);
 	
-	printf("\nExtracted substring :- %s",substr);
+	printf("\nExtracted substring: %s",substr);
 	
 	return 0;
 	

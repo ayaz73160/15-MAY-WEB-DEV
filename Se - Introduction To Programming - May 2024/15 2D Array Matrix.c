@@ -5,10 +5,10 @@ int main()
 {
 	int i,j,k,a[100][100],b[100][100],sum[100][100],sub[100][100],mul[100][100],div[100][100],row,col,choice;
 
-	printf("Enter the row:- ");	
+	printf("Enter row: ");	
 	scanf("%d",&row);
 
-	printf("Enter the col:- ");
+	printf("Enter col: ");
 	scanf("%d",&col);
 
 	printf("\nEnter 1 is for addition:- ");

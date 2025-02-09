@@ -14,12 +14,12 @@ int main()
 {
 	char str[100];
 	
-	printf("Enter the string :- ");
+	printf("Enter string: ");
 	fgets(str,sizeof(str),stdin);
 	
 	str[strcspn(str,"\n")] 	= '\n';
 	
-	printf("Reverse String :- ");
+	printf("Reverse String: ");
 	reverse(str);
 	printf("\n");
 	
