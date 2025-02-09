@@ -1,0 +1,61 @@
+HTML5 Assigment
+
+Q1. What are the new tags added in HTML5?
+Answer:
+HTML5 introduced several new tags to enhance web functionality and semantics. Some of the most notable tags include:
+
+<header>: Defines a header for a document or section.
+<footer>: Defines a footer for a document or section.
+<nav>: Represents a navigation section.
+<article>: Represents a self-contained composition that could be distributed independently.
+<section>: Defines a section in a document.
+<aside>: Represents content that is tangentially related to the content around it, often for sidebars.
+<figure>: Represents self-contained content, often with a caption (<figcaption>).
+<figcaption>: Represents a caption for a <figure>.
+<mark>: Represents text that has been highlighted or marked for reference.
+
+Q2 How to embed audio and video in a webpage?
+Answer:
+HTML5 provides the <audio> and <video> tags to embed media content directly into a webpage without the need for third-party plugins. Here are examples of how to use each:
+
+Embedding Audio:
+
+<audio controls>
+    <source src="audiofile.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+<video width="320" height="240" controls>
+    <source src="video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+
+Q3 What is a semantic element in HTML5?
+Answer:
+Semantic elements are HTML5 elements that clearly describe their meaning in a human- and machine-readable way. These elements provide better context for both the browser and developers, enhancing accessibility and SEO. Examples of semantic elements include <header>, <footer>, <article>, <section>, and <nav>. By using semantic tags, developers can create more meaningful HTML documents that are easier to maintain and understand.
+
+Q4 Canvas and SVG tags
+Answer:
+The <canvas> and <svg> tags are both used to draw graphics in HTML, but they have different purposes and capabilities:
+
+Canvas (<canvas>):
+
+The <canvas> element is a bitmap-based graphics element used for drawing 2D shapes and images via JavaScript. It is resolution-dependent, which means the quality of the graphics can degrade if resized.
+
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;"></canvas>
+<script>
+    var canvas = document.getElementById("myCanvas");
+    var context = canvas.getContext("2d");
+    context.fillStyle = "#FF0000";
+    context.fillRect(0, 0, 150, 75);
+</script>
+
+
+SVG (<svg>):
+
+SVG (Scalable Vector Graphics) is a vector-based graphics format. It allows for high-quality graphics that can be scaled to any size without losing quality. SVG elements can also be styled with CSS and manipulated with JavaScript.
+Example:
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" stroke="black" stroke-width="2" fill="red" />
+</svg>
