@@ -1,0 +1,2 @@
+Q2 What is Normalization?
+Normalization is the process of organizing data in a database to reduce redundancy and improve consistency. It breaks large tables into smaller ones and establishes relationships between them. Common forms are 1NF, 2NF, 3NF, and BCNF.

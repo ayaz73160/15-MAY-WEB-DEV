@@ -1,0 +1,2 @@
+Q6 What is DDL Interpreter?
+The DDL interpreter processes Data Definition Language commands like CREATE, ALTER, and DROP. It helps define or modify the database structure and schema.

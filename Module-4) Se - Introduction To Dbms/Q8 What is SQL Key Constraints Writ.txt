@@ -1,0 +1,15 @@
+Q8 What is SQL Key Constraints? Write an Example.
+SQL key constraints ensure data integrity in a table.
+Primary Key: Unique and non-null values.
+Foreign Key: Links tables.
+Unique Key: Ensures unique values.
+Check: Enforces a condition.
+Example SQL Key Constraints:
+
+CREATE TABLE Employees (
+    EmployeeID INT PRIMARY KEY,
+    Email VARCHAR(255) UNIQUE,
+    DepartmentID INT,
+    FOREIGN KEY (DepartmentID) REFERENCES Departments(DepartmentID),
+    CHECK (Salary > 0)
+);

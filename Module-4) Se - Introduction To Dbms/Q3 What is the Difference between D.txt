@@ -1,0 +1,5 @@
+Q3 What is the Difference between DBMS and RDBMS?
+DBMS: Manages data without enforcing strict relationships. Examples: MS Access, MongoDB.
+RDBMS: Uses structured tables with keys and constraints to enforce relationships. Examples: MySQL, Oracle, PostgreSQL.
+RDBMS supports normalization, DBMS does not necessarily.
+RDBMS is suitable for complex, large applications; DBMS is for simpler use cases.

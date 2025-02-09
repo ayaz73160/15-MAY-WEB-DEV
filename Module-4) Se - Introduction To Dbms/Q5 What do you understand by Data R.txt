@@ -1,0 +1,2 @@
+Q5 What do you understand by Data Redundancy?
+Data redundancy means the same data is stored in multiple places, leading to higher storage costs and potential inconsistencies. Normalization helps reduce redundancy by organizing data efficiently.

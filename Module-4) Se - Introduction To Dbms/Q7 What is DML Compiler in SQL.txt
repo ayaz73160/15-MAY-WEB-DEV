@@ -1,0 +1,2 @@
+Q7 What is DML Compiler in SQL?
+The DML compiler translates SQL commands like INSERT, UPDATE, and DELETE into low-level instructions. These instructions are executed by the database engine to manipulate the data.

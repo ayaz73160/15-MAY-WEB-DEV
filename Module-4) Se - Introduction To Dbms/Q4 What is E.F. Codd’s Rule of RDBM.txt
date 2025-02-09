@@ -1,0 +1,5 @@
+Q4 What is E.F. Codd’s Rule of RDBMS Systems?
+Codd's 12 rules define relational database principles. Key rules:
+Information Rule: Data must be stored in tables.
+Systematic Treatment of Null Values: The system must support NULL for missing data.
+Data Integrity: Constraints ensure accuracy through primary and foreign keys.

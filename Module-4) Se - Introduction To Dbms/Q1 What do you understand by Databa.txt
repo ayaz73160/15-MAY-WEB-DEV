@@ -1,0 +1,2 @@
+Q1 What do you understand by Database?
+A database is an organized collection of data that allows easy access, management, and updating. Data is stored in a structured format using tables, rows, and columns, helping to efficiently retrieve and manipulate information.

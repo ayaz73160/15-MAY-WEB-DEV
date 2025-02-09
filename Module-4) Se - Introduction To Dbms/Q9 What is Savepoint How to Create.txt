@@ -1,0 +1,13 @@
+Q9 What is Savepoint? How to Create a Savepoint?
+A savepoint is a point within a transaction that allows partial rollback without undoing the entire transaction.
+Example Query:
+BEGIN TRANSACTION;
+
+INSERT INTO Employees (EmployeeID, Name) VALUES (101, 'Alice');
+SAVEPOINT sp1;
+
+INSERT INTO Employees (EmployeeID, Name) VALUES (102, 'Bob');
+
+ROLLBACK TO sp1;
+
+COMMIT;

@@ -1,0 +1,11 @@
+Q10 What is a Trigger? How to Create a Trigger?
+A trigger is a set of SQL commands that execute automatically in response to an event (like INSERT, UPDATE, or DELETE) on a table.
+Example Trigger:
+
+CREATE TRIGGER after_employee_insert
+AFTER INSERT ON Employees
+FOR EACH ROW
+BEGIN
+    INSERT INTO EmployeeLogs (EmployeeID, Action) 
+    VALUES (NEW.EmployeeID, 'Inserted');
+END;
