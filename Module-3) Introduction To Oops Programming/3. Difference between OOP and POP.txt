@@ -1,0 +1,12 @@
+3. Difference between OOP and POP
+Difference between OOP and POP
+
+Aspect              OOP (Object-Oriented Programming)      POP (Procedural-Oriented Programming)
+-----------------------------------------------------------------------------------------------
+Approach            Focuses on objects and classes         Focuses on functions and procedures
+Modularity          Code is divided into objects           Code is divided into functions
+Data Security       Encapsulation ensures restricted       No data hiding; functions share 
+                    access                                 global data
+Code Reusability    Promotes reusability through           Reusability is limited to functions
+                    inheritance
+Examples            C++, Java, Python                      C, Fortran, Pascal
